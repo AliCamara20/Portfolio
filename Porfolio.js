@@ -8,7 +8,7 @@ const errors = [];
 
 
 //inputs.forEach( input => input.addEventListener("input", document.getElementById("error").innerHTML = ""));
-
+// This is the JS file connected to Portfolio.html.
 
 
 
