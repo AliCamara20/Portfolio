@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/6882a92763.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+        <header>
+            <div class="logo">
+                <h1>Ali</h1>
+            </div>
+
+            <div class="navbar">
+                <a href="#profile">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <nav>
+                <div class="hamMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+
+
+            <ul class="offScreenMenu" onclick="hide()">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                
+            
+        </header>
+
+        <div class="container">
+            <div class="profile" id="profile">
+                <div class="profile-intro">
+                    <p>Hi, I am </p>
+                    <h2 >Alieu Camara</h2>
+                    <p id="prof">I am  a Front-End Web Developer</p>
+                    <p>I live in Brikama Jamisa. I am staying with my family, I love coding. I also love playing video games</p>
+
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+
+                    <div class="button">
+                        <button>Hire Me</button>
+                        <button>let's talk</button>
+
+                    </div>
+                </div>
+
+                <div class="profile-img">
+                    <img src="Katim the coder.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="about" id="about">
+                <div class="about-header">
+                    <h2>About</h2>
+                </div>
+
+                <div class="about-box">
+                    <div class="about-img">
+                        <img src="Katim the coder.jpg" alt="">
+                    </div>
+                    <div class="about-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, 
+                            repudiandae nulla accusantium beatae nihil dolore modi recusandae, 
+                            autem necessitatibus vero sed nisi quod. Voluptatibus consequuntur 
+                            deserunt culpa natus, amet dicta, molestiae accusantium consectetur 
+                            illo quod quas. Ab earum quia soluta, fugit dolores error dolorum mollitia 
+                            perferendis maxime natus nam ipsam corporis delectus nostrum ratione? Deserunt, 
+                            qui optio. Maiores eum nihil illum, sit commodi repellat. Sit ipsum odit, nam illo 
+                            repellat doloribus laboriosam beatae, nemo cumque ratione dolore quisquam saepe optio 
+                            maiores ipsa earum obcaecati nesciunt nihil? Et ut doloribus aut libero quod quibusdam 
+                            possimus animi, exercitationem, recusandae dolorem in hic!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects" id="project">
+                <div class="project-head">
+                    <h2>Projects</h2>
+                </div>
+                <div class="project">
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="cafe3.avif" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>Cafe Website</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="chef.jpg" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>Restaurant Website</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="Katim the coder.jpg" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>CV Template</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="company.jpg" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>Archtect Template</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="Dakar.jpg" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>Trip Website</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="" target="_blank">
+                            <img src="menkInPaint.jpg" alt="">
+                        </a>
+    
+                        <div class="overlay">
+                            <div class="text">
+                                <p>Art Website</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+            
+            <div class="contact" id="contact">
+                <div class="contact-head">
+                    <h2>Contact</h2>
+                </div>
+
+                <p id="error"></p>
+
+                <form action="" id="form">
+                    <input type="text" placeholder="Name" class="input-field"  id="name">
+                    <input type="email" placeholder="Email" class="input-field" spellcheck="false" id="email" >
+                    <textarea name="" id="" placeholder="Write something" spellcheck="false" id="txt-area" ></textarea>
+                    <input type="submit" value="Send">
+
+                </form>
+            </div>
+        </div>
+        
+    <script src="Porfolio.js" defer>
+       
+
+        
+    </script>
+</body>
+</html>
